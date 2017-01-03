@@ -3,7 +3,6 @@
     <h1>{{project}}</h1>
     <todo-form v-on:add="add"></todo-form>
     <todo-list v-bind:items="todoList[project]"></todo-list>
-    {{todoList}}
   </div>
 </template>
 
